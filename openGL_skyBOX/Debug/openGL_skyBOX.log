@@ -1,0 +1,22 @@
+﻿生成启动时间为 2017/4/6 16:49:02。
+     1>项目“c:\Users\51359\documents\visual studio 2015\Projects\openGL_skyBOX\openGL_skyBOX\openGL_skyBOX.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt skyBox.cpp
+         skyBox.cpp
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+       Link:
+         E:\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\51359\documents\visual studio 2015\Projects\openGL_skyBOX\Debug\openGL_skyBOX.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib openGL32.lib glew32s.lib glfw3.lib SOIL.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\51359\documents\visual studio 2015\Projects\openGL_skyBOX\Debug\openGL_skyBOX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\51359\documents\visual studio 2015\Projects\openGL_skyBOX\Debug\openGL_skyBOX.lib" /MACHINE:X86 Debug\skyBox.obj
+         SOIL.lib(SOIL.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+     1>skyBox.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         正在生成代码
+         已完成代码的生成
+     1>glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glew32s.lib(glew.obj)”或在“c:\users\51359\documents\visual studio 2015\Projects\openGL_skyBOX\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         openGL_skyBOX.vcxproj -> c:\users\51359\documents\visual studio 2015\Projects\openGL_skyBOX\Debug\openGL_skyBOX.exe
+     1>已完成生成项目“c:\Users\51359\documents\visual studio 2015\Projects\openGL_skyBOX\openGL_skyBOX\openGL_skyBOX.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:04.26
